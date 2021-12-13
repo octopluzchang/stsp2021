@@ -301,7 +301,7 @@ a:hover {
     opacity: 1;
 }
 
-.service-content {
+.service-content.wp-block-column {
     flex-basis: 50% !important;
     width: 50% !important;
 }
