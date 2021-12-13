@@ -9,7 +9,7 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" class="p-2 col">
+<article id="post-<?php the_ID(); ?>" class="p-2 col-12">
 	<div class="story-card">
 		<div>
 			<div class="mb-3">
