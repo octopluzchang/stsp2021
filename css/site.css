@@ -302,6 +302,6 @@ a:hover {
 }
 
 .service-content.wp-block-column {
-    flex-basis: 50% !important;
+    flex-basis: min-content !important;
     width: 50% !important;
 }
