@@ -33,13 +33,16 @@
 					<!-- <input type="text" placeholder="搜尋關鍵字" /> -->
 				</div>
 				<div class="col-auto">
-					<a href="https://www.facebook.com/" target="_blank" class="d-inline-block icon">
-						<img src="<?php echo get_template_directory_uri().'/assets/ic_yt.png'; ?>"/>
+					<a href="https://www.youtube.com/channel/UCMhZSdgRIa26xxWF-PMk61g" target="_blank" class="d-inline-block">
+						<span class="icon d-inline-block"><img src="<?php echo get_template_directory_uri().'/assets/ic_yt.png'; ?>"/></span>
+						Youtube
 					</a>
+					
 				</div>
 				<div class="col-auto">
-					<a href="https://www.facebook.com/" target="_blank" class="d-inline-block icon">
-						<img src="<?php echo get_template_directory_uri().'/assets/ic_fb.png'; ?>"/>
+					<a href="https://www.facebook.com/pages/%E5%8D%97%E7%A7%91%E5%89%B5%E6%A5%AD%E5%B7%A5%E5%9D%8A/419902145135934" target="_blank" class="d-inline-block">
+						<span class="icon d-inline-block"><img src="<?php echo get_template_directory_uri().'/assets/ic_fb.png'; ?>"/></span>
+						官方粉專
 					</a>
 				</div>
 			</div>
@@ -93,7 +96,7 @@
 		</div>
 	</header><!-- #masthead -->
 	<div class="side-menu">
-		<a href="https://www.facebook.com/" target="_blank" class="mb-3 d-inline-block icon">
+		<a href="https://www.facebook.com/pages/%E5%8D%97%E7%A7%91%E5%89%B5%E6%A5%AD%E5%B7%A5%E5%9D%8A/419902145135934" target="_blank" class="mb-3 d-inline-block icon">
 		<img src="<?php echo get_template_directory_uri().'/assets/ic_fb.png'; ?>"/>
 		</a>
 		<a href="#" class="d-inline-block icon">
