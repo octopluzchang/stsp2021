@@ -178,10 +178,11 @@ a:hover {
 
 .team-card {
     position: relative;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
     height: 200px;
     width: 100%;
     overflow: hidden;
+    transition: 0.4s;
+    border: 1px solid #f2f2f2;
 }
 
 .team-card > div {
@@ -199,7 +200,8 @@ a:hover {
 }
 
 .team-card .back {
-    display: none;
+    opacity: 0;
+    transition: 0.4s;
     background-color: white;
     padding: 20px;
     height: 100%;
@@ -208,7 +210,11 @@ a:hover {
 }
 
 .team-card:hover .back {
-    display: block;
+    opacity: 1;
+}
+
+.team-card:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
 }
 
 .story-card {
