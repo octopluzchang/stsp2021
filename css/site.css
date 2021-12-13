@@ -193,20 +193,25 @@ a:hover {
     color: black;
 }
 
-.story-type .story-type-image img {
+.story-type .story-type-image {
     position: absolute;
     z-index: 0;
     left: 0;
-    width: 85%;
-    height: auto;
+    width: auto;
+    height: 100%;
     top: 50%;
     transform: translateY(-50%);
 }
 
-@media (max-width: 768px) {
-    .story-type .story-type-image img {
-        height: 100%;
-        width: auto;
+.story-type .story-type-image img {
+    height: 100%;
+    width: auto;
+}
+
+@media (min-width: 1400px) {
+    .story-type .story-type-image {
+        height: auto;
+        width: 60%;
     }
 }
 
