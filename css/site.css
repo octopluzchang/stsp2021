@@ -300,3 +300,7 @@ a:hover {
     display: flex;
     opacity: 1;
 }
+
+.servie-content {
+    width: 50% !important;
+}
