@@ -1,13 +1,5 @@
 @import "fonts.css";
 
-a:visited, a:active, a:focus {
-    color: black;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
 .site {
     position: relative;
     overflow: hidden;
@@ -70,7 +62,7 @@ a:hover {
     margin-left: 20px;
 }
 
-.menu-item a, .menu-item a:visited {
+.menu-item a, .menu-item a:visited, .menu-item a:hover {
     color: white;
 }
 
