@@ -19,8 +19,7 @@ get_header();
 					<?php
 					the_archive_title( '<h1 class="entry-title">', '</h1>' );
 					?>
-				</div>
-				<div class="post-thumbnail">
+					<div class="post-thumbnail">
 					<img src="
 					<?php 
 							if(is_post_type_archive('teams') || is_tax('team_types')) {
@@ -39,6 +38,8 @@ get_header();
 							<?php }?>
 					">
 				</div>
+				</div>
+				
 			</header><!-- .page-header -->
 
 			<div class="container mb-5">

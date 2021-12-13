@@ -14,8 +14,8 @@
         <header class="entry-header">
 			<div class="container">
 				<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+				<?php stsp2021_post_thumbnail(); ?>
 			</div>
-			<?php stsp2021_post_thumbnail(); ?>
 		</header><!-- .entry-header -->
     <?php endif; ?>
 	<?php if ( is_front_page() ) : ?>

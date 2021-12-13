@@ -17,13 +17,14 @@ get_header();
 					<?php
 					the_archive_title( '<h1 class="entry-title">', '</h1>' );
 					?>
-				</div>
-				<div class="post-thumbnail">
+					<div class="post-thumbnail">
 					<img src="<?php 
 							echo get_the_post_thumbnail_url($post = 61);
 							?>
 					">
 				</div>
+				</div>
+				
 			</header><!-- .page-header -->
 
 			<div class="container">
