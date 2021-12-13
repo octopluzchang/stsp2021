@@ -301,6 +301,7 @@ a:hover {
     opacity: 1;
 }
 
-.servie-content {
+.service-content {
+    flex-basis: 50% !important;
     width: 50% !important;
 }
