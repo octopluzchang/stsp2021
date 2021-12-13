@@ -129,8 +129,8 @@ a:hover {
     right: 0;
     width: 50%;
     height: auto;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 40%;
+    transform: translateY(-40%);
 }
 
 @media (max-width: 768px) {
