@@ -30,7 +30,7 @@
 		<div class="container">
 			<div class="row pt-2 pb-2 justify-content-end">
 				<div class="col-auto">
-					<input type="text" placeholder="搜尋關鍵字" />
+					<!-- <input type="text" placeholder="搜尋關鍵字" /> -->
 				</div>
 				<div class="col-auto">
 					<a href="https://www.facebook.com/" target="_blank" class="d-inline-block icon">
