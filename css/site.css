@@ -337,4 +337,12 @@
 
 .service-content.wp-block-column {
     padding-left: 50%;
+    width: 320px;
+}
+.blocks-gallery-item__caption {
+    opacity: 0;
+    transition: 1s;
+}
+.blocks-gallery-item:hover .blocks-gallery-item__caption {
+    opacity: 1;;
 }
