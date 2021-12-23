@@ -225,7 +225,6 @@
     width: 100%;
     overflow: hidden;
     transition: 0.4s;
-    border: 1px solid #f2f2f2;
 }
 
 .team-card > div {
@@ -258,6 +257,71 @@
 
 .team-card:hover {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+}
+
+.team-card {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.team-card > div {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.crew-card .post-thumbnail img {
+    width: 100%;
+}
+
+.crew-card .back {
+    opacity: 0;
+    transition: 0.4s;
+    background-color: white;
+    padding: 20px;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+}
+
+.crew-card:hover .back {
+    opacity: 1;
+}
+
+.crew-card:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+}
+
+.crew-content {
+    transition: 1s;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.crew-content > div {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    padding: 2em;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.crew-card:hover .crew-content {
+    opacity: 1;
 }
 
 .story-card {
