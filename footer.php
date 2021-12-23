@@ -48,6 +48,9 @@
 							TEL:06-5055625分機403 或 404 <br/>
 							E-mail:startup17a@gmail.com
 						</div>
+						<?php
+							echo do_shortcode('[wps_visitor_counter]');
+						?>
 					</div>
 				</div>
 			</div>
