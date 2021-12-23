@@ -28,9 +28,9 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'stsp2021' ); ?></a>
 	<div class="social-header">
 		<div class="container">
-			<div class="row pt-2 pb-2 justify-content-end">
+			<!-- <div class="row pt-2 pb-2 justify-content-end">
 				<div class="col-auto">
-					<!-- <input type="text" placeholder="搜尋關鍵字" /> -->
+					<input type="text" placeholder="搜尋關鍵字" />
 				</div>
 				<div class="col-auto">
 					<a href="https://www.youtube.com/watch?v=smcPi9eupuE" target="_blank" class="d-inline-block">
@@ -45,7 +45,7 @@
 						官方粉專
 					</a>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 	<header id="masthead" class="site-header">
@@ -54,14 +54,20 @@
 				<div class="col-auto">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="d-inline-block">
 					<div class="site-branding">
-						<img src="<?php echo get_template_directory_uri().'/assets/img_site_logo.png'; ?>" class="w-50"/>
+						<img src="<?php echo get_template_directory_uri().'/assets/img_site_logo.png'; ?>" style="width: 100px;"/>
 					</div><!-- .site-branding -->
 				</a>
 				</div>
 		
 				<div class="col">
 					<nav id="site-navigation" class="main-navigation">
-						<div class="d-inline-block d-sm-none">
+						<div class="d-inline-block d-lg-none">
+							<a href="https://www.facebook.com/stsp543/?ref=page_internal" target="_blank" class="mx-2 d-lg-none d-inline-block">
+								<span class="icon d-inline-block"><img src="<?php echo get_template_directory_uri().'/assets/ic_fb.png'; ?>"/></span>
+							</a>
+							<a href="https://www.youtube.com/watch?v=smcPi9eupuE" target="_blank" class="mx-2 d-lg-none d-inline-block">
+								<span class="icon d-inline-block"><img src="<?php echo get_template_directory_uri().'/assets/ic_yt.png'; ?>"/></span>
+							</a>
 							<span class="mobile-menu-button open">
 								<img src="<?php echo get_template_directory_uri().'/assets/ic_menu.png'; ?>"/>
 							</span>
@@ -79,7 +85,7 @@
 								?>
 							</div>
 						</div>
-						<div class="d-none d-sm-inline-block">
+						<div class="d-none d-lg-inline-block">
 							<?php
 							wp_nav_menu(
 								array(
@@ -91,6 +97,17 @@
 						</div>
 						
 					</nav><!-- #site-navigation -->
+				</div>
+				<div class="col-auto d-none d-lg-inline-block">
+					<a href="https://www.youtube.com/watch?v=smcPi9eupuE" target="_blank" class="d-inline-block">
+						<span class="icon d-inline-block"><img src="<?php echo get_template_directory_uri().'/assets/ic_yt.png'; ?>"/></span>
+					</a>
+					
+				</div>
+				<div class="col-auto d-none d-lg-inline-block">
+					<a href="https://www.facebook.com/stsp543/?ref=page_internal" target="_blank" class="d-inline-block">
+						<span class="icon d-inline-block"><img src="<?php echo get_template_directory_uri().'/assets/ic_fb.png'; ?>"/></span>
+					</a>
 				</div>
 		</div>
 		</div>

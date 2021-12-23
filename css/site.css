@@ -1,7 +1,7 @@
 @import "fonts.css";
 
 .container {
-    max-width: 900px;
+    max-width: 950px;
 }
 
 .site {
@@ -28,8 +28,9 @@
 .mobile-menu {
     position: absolute;
     right: -100%;
-    top: 125px;
+    top: 77px;
     width: 100%;
+    max-width: 400px;
     background-color: black;
     z-index: 1000;
     height: 100vh;
