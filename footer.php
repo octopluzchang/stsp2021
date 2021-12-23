@@ -41,6 +41,16 @@
 						<h5>南部科學園區</h5>
 						<div>版權所有© 2021 南部科學園區創業工坊</div>
 						<div>科技部南部科學園區管理局委託辦理</div>
+						<div class="row align-items-center">
+							<div class="col-auto">
+								造訪人次
+							</div>
+							<div class="col p-0">
+								<?php
+									echo do_shortcode('[wps_visitor_counter]');
+								?>
+							</div>
+						</div>
 					</div>
 					<div class="col-md">
 						<div class="text-md-right">
@@ -48,9 +58,6 @@
 							TEL:06-5055625分機403 或 404 <br/>
 							E-mail:startup17a@gmail.com
 						</div>
-						<?php
-							echo do_shortcode('[wps_visitor_counter]');
-						?>
 					</div>
 				</div>
 			</div>
