@@ -4,6 +4,10 @@
     max-width: 950px;
 }
 
+.post, .page {
+    margin: 0 !important;
+}
+
 .site {
     position: relative;
     overflow: hidden;
