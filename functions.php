@@ -184,12 +184,12 @@ function cptui_register_my_cpts_teams() {
 	 */
 
 	$labels = [
-		"name" => __( "進駐團隊", "stsp2021" ),
+		"name" => __( "新創團隊", "stsp2021" ),
 		"singular_name" => __( "team", "stsp2021" ),
 	];
 
 	$args = [
-		"label" => __( "進駐團隊", "stsp2021" ),
+		"label" => __( "新創團隊", "stsp2021" ),
 		"labels" => $labels,
 		"description" => "",
 		"public" => true,
@@ -226,7 +226,7 @@ add_filter( 'get_the_archive_title', function ($title) {
 		} elseif ( is_author() ) {    
 			$title = '<span class="vcard">' . get_the_author() . '</span>' ;    
 		} elseif ( is_tax($term = 'team_types') ) { //for custom post types
-			$title = '進駐團隊';
+			$title = '新創團隊';
 		} elseif ( is_tax($term = 'video_types') ) { //for custom post types
 			$title = '線上課程';
 		} elseif ( is_tax($term = 'story_types') ) { //for custom post types
