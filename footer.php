@@ -10,7 +10,7 @@
  */
 
 ?>
-	<?php if(is_post_type_archive('videos') || is_tax('video_types') || is_singular( 'videos' )) {?>
+	<?php if(is_singular( 'videos' )) {?>
 				<div class="video-popup show">
 					<div class="content">
 						<h1>
