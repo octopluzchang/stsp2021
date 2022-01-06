@@ -28,8 +28,9 @@
 					?>
 				</div><!-- .entry-meta -->
 			<?php endif; ?>
-			<?php stsp2021_post_thumbnail(); ?>
+			
 		</div>
+		<?php stsp2021_post_thumbnail(); ?>
 	</header><!-- .entry-header -->
 
 	
