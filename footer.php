@@ -55,7 +55,7 @@
 					<div class="col-md">
 						<div class="text-md-right">
 							74147台南市新市區南科三路17號2樓之1 A室 <br/>
-							TEL:06-5055625分機403 或 404 <br/>
+							TEL:06-5055625<br/>
 							E-mail:startup17a@gmail.com
 						</div>
 					</div>
