@@ -15,6 +15,8 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
+    <link rel="image_src" href="./assets/link_thumbnail.png" />
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/site.css'; ?>">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
@@ -65,7 +67,7 @@
 							<a href="https://www.facebook.com/stsp543/?ref=page_internal" target="_blank" class="mx-2 d-lg-none d-inline-block">
 								<span class="icon d-inline-block"><img src="<?php echo get_template_directory_uri().'/assets/ic_fb.png'; ?>"/></span>
 							</a>
-							<a href="https://www.youtube.com/watch?v=smcPi9eupuE" target="_blank" class="mx-2 d-lg-none d-inline-block">
+							<a href="https://www.youtube.com/channel/UCMhZSdgRIa26xxWF-PMk61g/videos" target="_blank" class="mx-2 d-lg-none d-inline-block">
 								<span class="icon d-inline-block"><img src="<?php echo get_template_directory_uri().'/assets/ic_yt.png'; ?>"/></span>
 							</a>
 							<span class="mobile-menu-button open">
