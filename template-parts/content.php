@@ -30,7 +30,7 @@
 			<?php endif; ?>
 			
 		</div>
-		<?php stsp2021_post_thumbnail(); ?>
+		<div class="container-fluid text-center"><?php stsp2021_post_thumbnail(); ?></div>
 	</header><!-- .entry-header -->
 
 	
